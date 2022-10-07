@@ -1,0 +1,39 @@
+﻿@model IEnumerable<App2.Models.RespostaInscricao>
+@{
+    ViewData["Title"] = "Lista de Inscritos";
+}
+
+<div>
+ <table>
+     <thead> 
+        <tr>
+            <td>
+                Nome
+            </td>
+            <td>
+                Telefone
+            </td>
+            <td>
+                Email
+            </td>
+        </tr>
+     </thead>
+    <tbody>
+        @foreach(RespostaInscricao item in Model){
+            <tr>
+                <td>
+                    @item.Nome
+                </td>
+                <td>
+                    @item.Telefone
+                </td>
+                <td>
+                    @item.Email
+                </td>
+            </tr>
+        }
+    </tbody>
+ </table>
+
+  <a asp-action="Index"> Voltar ao inicio </a>
+</div>
