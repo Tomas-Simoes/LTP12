@@ -1,0 +1,48 @@
+﻿@model APPSatisfacao.Models.RespostaInquerito
+@{
+    ViewData["Title"] = "Inquérito";
+}
+
+<form asp-action="Inquerito" method="post">
+    <div>
+        <label asp-for="Nome">Nome</label>
+        <input asp-for="Nome"/>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email"/>
+    </div>
+
+    <br />
+
+     <div>
+        <label asp-for="DataCompra">Data da compra</label>
+        <input type="date" asp-for="DataCompra"/>
+    </div>
+    
+    <br />
+
+    <div>
+        <label asp-for="Produto">Produto</label>
+        <input asp-for="Produto" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>
+            Como foi a sua compra?
+        </label>
+
+        <select asp-for="Satisfacao">
+            <option value="">Escolha uma opção</option>
+            <option value="true">Fiquei satisfeito</option>
+            <option value="false">Não fiquei satisfeito</option>
+        </select>
+    </div>
+
+    <button type="submit">Enviar Dados</button>
+</form>

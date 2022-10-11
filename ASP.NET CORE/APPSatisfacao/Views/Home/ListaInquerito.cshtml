@@ -1,0 +1,31 @@
+﻿@model IEnumerable<APPSatisfacao.Models.RespostaInquerito>
+@{
+    ViewData["Title"] = "Lista Inqueritos";
+}
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td> Nome </td>
+                <td> Email </td>
+                <td> Data de Compra </td>
+                <td> Produto </td>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (RespostaInquerito item     in Model)
+            {
+                <tr>
+                    <td> @item.Nome </td>
+                    <td> @item.Email </td>
+                    <td> @item.DataCompra </td>
+                    <td> @item.Produto </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Index"> Voltar ao inicio </a>
+</div>
