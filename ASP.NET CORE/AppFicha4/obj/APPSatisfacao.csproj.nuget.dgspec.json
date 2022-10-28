@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\APPSatisfacao\\APPSatisfacao.csproj": {}
+    "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\AppFicha4\\APPSatisfacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\APPSatisfacao\\APPSatisfacao.csproj": {
+    "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\AppFicha4\\APPSatisfacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\APPSatisfacao\\APPSatisfacao.csproj",
+        "projectUniqueName": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\AppFicha4\\APPSatisfacao.csproj",
         "projectName": "APPSatisfacao",
-        "projectPath": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\APPSatisfacao\\APPSatisfacao.csproj",
+        "projectPath": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\AppFicha4\\APPSatisfacao.csproj",
         "packagesPath": "C:\\Users\\30220\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\APPSatisfacao\\obj\\",
+        "outputPath": "C:\\Users\\30220\\Desktop\\LTP12\\ASP.NET CORE\\AppFicha4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

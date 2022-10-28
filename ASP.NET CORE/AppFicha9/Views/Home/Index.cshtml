@@ -1,0 +1,21 @@
+﻿@model IEnumerable<AppFicha9.Models.Cliente>
+@{
+    Layout = "_Layout";
+    ViewData["Subtitle"] = "Menu Inicial";
+}
+
+<h2 class="titulo">@ViewBag.Subtitle</h2>
+
+<hr />
+
+<div class="row">
+    <div class="col-4 text-center card bg-light p-5 m-2"> 
+        <p class="text-center">Visualização da lista de clientes registados na aplicação</p>
+        <a asp-controller="Home" asp-action="todosClientes" class="btn btn-primary">Lista de Clientes</a>
+    </div>
+
+    <div class="col-4 text-center card bg-light p-5 m-2">
+        <p class="text-center">Adicionar novos clientes à aplicação</p>
+        <a asp-controller="Home" asp-action="adicionarCliente" class="btn btn-primary">Adicionar Cliente</a>
+    </div>
+</div>
