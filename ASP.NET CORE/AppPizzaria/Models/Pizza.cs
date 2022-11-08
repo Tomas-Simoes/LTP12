@@ -12,5 +12,6 @@
         public bool IsPizzaPreferida { get; set; }
         public bool EmStock { get; set; }
         public int CategoriaId { get; set; }
+        public virtual Categoria Categorias  { get; set; }
     }
 }
