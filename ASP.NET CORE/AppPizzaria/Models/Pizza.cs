@@ -34,11 +34,13 @@ namespace AppPizzaria.Models
 
         public decimal Preco { get; set; }
 
-        [Display(Name = "Imagem")]
+        [Display(Name = "Caminho Imagem tamanho Normal " )]
+        [StringLength(200, ErrorMessage = "o {0} deve ter no máximo {1} caracteres ")]
+
         public string ImagemUrl { get; set; }
         public string ImagemThumbnailUrl { get; set; }
         public bool IsPizzaPreferida { get; set; }
-        [Display(Name = "Preferida?")]
+        [Display(Name = "Preferida?")]          
         public bool EmStock { get; set; }
         [Display(Name = "Em Stock?")]
         public int CategoriaId { get; set; }
