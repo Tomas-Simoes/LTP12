@@ -14,12 +14,12 @@ namespace AppPizzaria.Migrations
                                          "12.90, '', '', 1, 1, 1), " +
 
                                          "('Americana', 'Massa fina, presunto, azeitonas, pimento', " +
-                                         "'Bem ao estilo americano a nossa Pizza America combina o melhor do pepperoni, pimento, azeitonas e muito topping para pizza. Acompanhada por 7-UP' " +
+                                         "'Bem ao estilo americano a nossa Pizza America combina o melhor do pepperoni, pimento, azeitonas e muito topping para pizza. Acompanhada por 7-UP', " +
                                          "11.90, '', '', 0, 1, 1), " +
                                          
                                          "('Burger', 'Massa extra fina, carne, cebola, bacon', " +
-                                         "'Se sonhaste com um mix perfeito entre pizza e hamburger aqui o tens: massa telepizza com molho de tomate e oregaos e topping para pizza, carne, cebola, bacon e extra topping para pizza' " +
-                                         "9.90, '', '', 0, 1, 1)");
+                                         "'Se sonhaste com um mix perfeito entre pizza e hamburger aqui o tens: massa telepizza com molho de tomate e oregaos e topping para pizza, carne, cebola, bacon e extra topping para pizza', " +
+                                         "9.90, '', '', 0, 1, 2)");
        
         }
 
