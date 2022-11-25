@@ -1,4 +1,6 @@
 ﻿using AppPizzaria.Context;
+using AppPizzaria.Repositories;
+using AppPizzaria.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppPizzaria
@@ -17,6 +19,9 @@ namespace AppPizzaria
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews();
+
+            services.AddTransient<IPizzaRepository, PizzaRepository>();
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

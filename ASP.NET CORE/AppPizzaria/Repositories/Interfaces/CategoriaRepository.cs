@@ -1,0 +1,17 @@
+﻿using AppPizzaria.Context;
+using AppPizzaria.Models;
+
+namespace AppPizzaria.Repositories.Interfaces
+{
+    public class CategoriaRepository : ICategoriaRepository
+    {
+        private readonly AppDbContext _context;
+
+        public CategoriaRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public IEnumerable<Categoria> Categorias => _context.Categorias;
+    }
+}
