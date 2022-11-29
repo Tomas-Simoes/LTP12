@@ -29,7 +29,7 @@ namespace AppPizzaria.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoriaId"), 1L, 1);
 
-                    b.Property<string>("CategoriaName")
+                    b.Property<string>("CategoriaNome")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
@@ -69,7 +69,8 @@ namespace AppPizzaria.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("ImagemThumbnailUrl")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("ImagemUrl")
                         .HasMaxLength(200)

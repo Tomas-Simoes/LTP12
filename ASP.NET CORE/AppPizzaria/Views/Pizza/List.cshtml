@@ -1,0 +1,23 @@
+﻿@model IEnumerable<AppPizzaria.Models.Pizza>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>@ViewData["Titulo"]</h1>
+<h2>@ViewData["Data"]</h2>
+
+<hr />
+
+<h3>Total de pizzas: @ViewData["Total"]</h3>
+
+<hr />
+
+@foreach(var pizza in Model){
+    <div>
+        <h4>@pizza.Nome</h4>
+        <p> <img src="@pizza.ImagemUrl" width="200" height="200"/> </p>
+        <h3> Preco: @pizza.Preco</h3>
+        <p>Descrição: @pizza.DescricaoCurta</p>
+    </div>
+}
