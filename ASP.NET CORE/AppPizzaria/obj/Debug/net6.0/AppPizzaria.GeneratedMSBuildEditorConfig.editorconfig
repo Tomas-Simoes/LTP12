@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/AppPizzaria/Views/Pizza/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/AppPizzaria/Views/Pizza/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/AppPizzaria/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/AppPizzaria/Views/Shared/_PizzasResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QaXp6YXNSZXN1bW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/AppPizzaria/Views/Shared/_ValidationScriptsPartial.cshtml]

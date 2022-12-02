@@ -10,6 +10,7 @@ namespace AppPizzaria.Context
         }
 
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Pizza> Pizzas { get; set; }   
+        public DbSet<Pizza> Pizzas { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
     }
 }

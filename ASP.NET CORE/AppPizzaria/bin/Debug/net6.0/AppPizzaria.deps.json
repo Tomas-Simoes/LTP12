@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AppPizzaria/1.0.0": {
         "dependencies": {
+          "C1.AspNetCore.Mvc": "3.0.20222.340",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -15,6 +16,18 @@
         },
         "runtime": {
           "AppPizzaria.dll": {}
+        }
+      },
+      "C1.AspNetCore.Mvc/3.0.20222.340": {
+        "dependencies": {
+          "System.Data.Common": "4.1.0",
+          "System.Drawing.Primitives": "4.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/C1.AspNetCore.Mvc.dll": {
+            "assemblyVersion": "3.0.20222.340",
+            "fileVersion": "3.0.20222.340"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1612,6 +1625,18 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
+      "System.Data.Common/4.1.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1661,6 +1686,12 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        }
+      },
+      "System.Drawing.Primitives/4.0.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
         }
       },
       "System.Formats.Asn1/5.0.0": {},
@@ -2230,6 +2261,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "C1.AspNetCore.Mvc/3.0.20222.340": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0IoeoWxt6y4Y/4CD/QnIcYgNWuG6gknGuHNWOCL/5sNh08mH2vXfv6QVN5uJnU6iy6i8YrWfRe2FPVJGnyKqQ==",
+      "path": "c1.aspnetcore.mvc/3.0.20222.340",
+      "hashPath": "c1.aspnetcore.mvc.3.0.20222.340.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -2959,6 +2997,13 @@
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
     },
+    "System.Data.Common/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "path": "system.data.common/4.1.0",
+      "hashPath": "system.data.common.4.1.0.nupkg.sha512"
+    },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2993,6 +3038,13 @@
       "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Primitives/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9lVRG1voBwzLGZkf1XFJrobdZDZ5ZHMU4FVTbXAbzehpN90yYgkUeo9GoEYdvkt/EXaaHZJAeuffXP4JBbY+Ig==",
+      "path": "system.drawing.primitives/4.0.0",
+      "hashPath": "system.drawing.primitives.4.0.0.nupkg.sha512"
     },
     "System.Formats.Asn1/5.0.0": {
       "type": "package",
