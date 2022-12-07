@@ -4,10 +4,8 @@
 
 namespace TrabalhoPratico1.Migrations
 {
-    /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class initialMigration : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -43,7 +41,7 @@ namespace TrabalhoPratico1.Migrations
                 {
                     ContaId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Preco = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
+                    Saldo = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
                     AgenciaId = table.Column<int>(type: "int", nullable: false),
                     ClienteId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -110,7 +108,6 @@ namespace TrabalhoPratico1.Migrations
                 column: "ClientesClienteId");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

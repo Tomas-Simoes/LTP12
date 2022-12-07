@@ -12,18 +12,17 @@ using TrabalhoPratico1.Context;
 namespace TrabalhoPratico1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221206112948_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20221207162628_insertConta")]
+    partial class insertConta
     {
-        /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.0")
+                .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("TrabalhoPratico1.Models.Agencia", b =>
                 {
@@ -31,7 +30,7 @@ namespace TrabalhoPratico1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AgenciaId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AgenciaId"), 1L, 1);
 
                     b.Property<string>("Morada")
                         .IsRequired()
@@ -49,7 +48,7 @@ namespace TrabalhoPratico1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteId"), 1L, 1);
 
                     b.Property<string>("ClienteNome")
                         .IsRequired()
@@ -72,7 +71,7 @@ namespace TrabalhoPratico1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContaId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContaId"), 1L, 1);
 
                     b.Property<int>("AgenciaId")
                         .HasColumnType("int");
@@ -80,7 +79,7 @@ namespace TrabalhoPratico1.Migrations
                     b.Property<int>("ClienteId")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Preco")
+                    b.Property<decimal>("Saldo")
                         .HasColumnType("decimal(10,2)");
 
                     b.HasKey("ContaId");
@@ -98,7 +97,7 @@ namespace TrabalhoPratico1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmprestimoId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmprestimoId"), 1L, 1);
 
                     b.Property<int?>("AgenciasAgenciaId")
                         .HasColumnType("int");

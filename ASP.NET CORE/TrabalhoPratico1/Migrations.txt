@@ -1,0 +1,106 @@
+> Insert Agencia
+
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace TrabalhoPratico1.Migrations
+{
+    public partial class insertAgencia : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("INSERT INTO Agencias(Morada) VALUES " +
+                                                "('Lisboa'), " +
+                                                "('Porto'), " +
+                                                "('Braga'), " +
+                                                "('Coimbra')");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("DELETE FROM Agencias");
+        }
+    }
+}
+
+> Insert Cliente
+
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace TrabalhoPratico1.Migrations
+{
+    public partial class insertCliente : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("INSERT INTO Clientes(ClienteNome, Morada) VALUES " +
+                                    "('Anibal', 'Lisboa'), " +
+                                    "('Belmiro', 'Braga'), " +
+                                    "('Casimiro', 'Coimbra'), " +
+                                    "('Portas', 'Porto')");
+
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("DELETE FROM Clientes");
+        }
+    }
+}
+
+> Insert Contas
+
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace TrabalhoPratico1.Migrations
+{
+    public partial class insertConta : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("INSERT INTO Contas(Saldo, AgenciaId, ClienteId) VALUES " +
+                                   "(0, 3, 1), " +
+                                   "(100, 1, 2), " +
+                                   "(1000, 2, 3), " +
+                                   "(500, 4, 1)");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("DELETE FROM Contas");
+
+        }
+    }
+}
+
+
+> Insert Emprestimos
+
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace TrabalhoPratico1.Migrations
+{
+    public partial class insertEmprestimo : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("INSERT INTO Emprestimos(Valor, AgenciasAgenciaId, ClientesClienteId) VALUES " +
+                                                     "(1000, 3, 1), " +
+                                                     "(5000, 1, 1), " +
+                                                     "(1000, 2, 2), " +
+                                                     "(10000, 4, 4)");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("DELETE FROM Emprestimos");
+        }
+    }
+}

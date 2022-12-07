@@ -10,9 +10,9 @@ namespace TrabalhoPratico1.Models
         public int ContaId { get; set; }
 
         [Required(ErrorMessage = "Indique o saldo do cliente")]
-        [Display(Name = "Preço")]
+        [Display(Name = "Saldo")]
         [Column(TypeName = "decimal(10,2)")]
-        public decimal Preco { get; set; }
+        public decimal Saldo { get; set; }
 
         public int AgenciaId { get; set; }
         public int ClienteId { get; set; }
