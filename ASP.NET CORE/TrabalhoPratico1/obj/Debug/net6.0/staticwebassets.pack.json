@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\TrabalhoPratico1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\img\\bank_img_1.jpg",
+      "PackagePath": "staticwebassets\\img\\bank_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\img\\bank_img_2.jpg",
+      "PackagePath": "staticwebassets\\img\\bank_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\img\\bank_img_3.jpg",
+      "PackagePath": "staticwebassets\\img\\bank_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\12prog\\Desktop\\LTP12\\ASP.NET CORE\\TrabalhoPratico1\\wwwroot\\js\\site.js",

@@ -16,6 +16,86 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\12prog\Desktop\LTP12\ASP.NET CORE\TrabalhoPratico1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Agencias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmNpYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Agencias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmNpYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Agencias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmNpYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Agencias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmNpYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Agencias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmNpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Contas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Contas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Contas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Contas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Contas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Emprestimoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Emprestimoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Emprestimoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Emprestimoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Emprestimoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/12prog/Desktop/LTP12/ASP.NET CORE/TrabalhoPratico1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
